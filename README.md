@@ -77,10 +77,14 @@ Nearest Score = 6
 Nearest score and expected score are matching!
 ```
 
+## Known issues
+
+The nearest score will be evalutated to `5` instead of `6` if `NORMALIZATION` is enabled.
+
 
 ## Author
 Hendrik Thorun  
-hendrik.thorun@stud.fh-luebeck.de
+hendrik.thorun@stud.fh-luebeck.de  
 Date: 14 June 2016
 
 
