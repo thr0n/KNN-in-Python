@@ -99,7 +99,7 @@ INPUT_FILE = "winequality-red.csv"
 EXPECTED_SCORE = 6
 NORMALIZE = False
 DEBUG = True
-FIND_SMALLEST_K = True
+FIND_SMALLEST_K = False
 
 # Define a k (the k from KNN). k should be smaller than the sample size
 # to kick out outliers. But big enough to get a good vote!
