@@ -26,7 +26,7 @@ This is an extendend version of the previous movie classification.
 
 A `.csv`-file will be used to support sample data. This file contains various information about several variants of the Portuguese "Vinho Verde" wine (source: https://archive.ics.uci.edu/ml/datasets/Wine+Quality) including a "score" that describes the quality of the wine. The last row of of the `.csv`-file has been taken as "wine to be classified" - the corresponding score shall be calculated using KNN.  
 
-In contrast to the movie classifier, this application is able to **normalize** the values of the sample data set.
+In contrast to the movie classifier, this application is able to **normalize** the values of the sample data set. Furthermore it's possible to find the smallest valid K-value (see the execution options below).
 
 ### Execution options
 
@@ -36,7 +36,7 @@ There are five constants to define the application's behavior:
 `EXPECTED_SCORE` - the original score of the regarded wine (taken from the original `.csv`-file)  
 `NORMALIZE` - enable or disable sample data normalization (`boolean`)  
 `DEBUG` - enable or disable the debug/verbose mode (`boolean`)  
-`FIND_SMALLEST_K` - enable or disable the `FIND_SMALLES_K` mode (otherwise we )  
+`FIND_SMALLEST_K` - enable or disable the `FIND_SMALLEST_K` mode (if disabled, we will just calculate the most likely score)  
 
 ### Sample output
 
